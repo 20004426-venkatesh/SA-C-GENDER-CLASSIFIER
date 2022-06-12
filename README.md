@@ -21,7 +21,7 @@ RegisterNumber :  212220230018
 from deepface import DeepFace
 import cv2
 import matplotlib.pyplot as plt
-img1=cv2.imread('NTR.jpg')
+img1=cv2.imread('nani.jpg')
 plt.imshow(img1[:,:,::-1])
 plt.show()
 result=DeepFace.analyze(img1,actions=['gender'])
